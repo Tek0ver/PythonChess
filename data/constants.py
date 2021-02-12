@@ -10,6 +10,7 @@ WINDOW_SIZE = (800, 600)
 # Images
 img_main_menu = os.path.join(PATH_IMG, 'menu1.png')
 img_board = os.path.join(PATH_IMG, 'board.png')
+img_coord = os.path.join(PATH_IMG, 'coord.png')
 
 # Piece images
 img_Q = os.path.join(PATH_IMG, 'WQ.png')   # White Queen
@@ -26,7 +27,15 @@ img_h = os.path.join(PATH_IMG, 'BH.png')   # Black Knight (Black Horse)
 img_r = os.path.join(PATH_IMG, 'BR.png')   # Black Rook
 img_p = os.path.join(PATH_IMG, 'BP.png')   # Black Pawn
 
+# Overlay images
+img_selected = os.path.join(PATH_IMG, 'selected.png')
+img_possible = os.path.join(PATH_IMG, 'possible.png')
+
 # Placement Grid related
-SPACE = 67.75
-GRID_OFFSET_X = 31
-GRID_OFFSET_Y = 31
+SPACE = 67.9
+# Offset for piece placement
+PIECES_GRID_OFFSET_X = 31
+PIECES_GRID_OFFSET_Y = 28
+# Offset for grid
+GRID_OFFSET_X = 29
+GRID_OFFSET_Y = 29
